@@ -16,7 +16,7 @@ function calculateAge(){
             alert("please select a valid date");
             return;//if age is less than 0 then aler the user to select a valid date
         }
-        resultEl.innerText=`your age id ${age} years old`;//dispalying the result in the result field
+        resultEl.innerText=`You are ${age} years old`;//dispalying the result in the result field
     }
 }
 
